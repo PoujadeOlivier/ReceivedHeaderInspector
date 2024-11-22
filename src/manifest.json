@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "ReceivedHeaderInspector",
+    "description": "ReceivedHeaderInspector vous permet de lire les serveurs d'envoi et de vérifier les domaines afin de prévenir l'usurpation d'identité dans vos e-mails. Il est recommandé d'avoir quelques notions de base sur le fonctionnement des e-mails et des en-têtes de message pour tirer pleinement parti de cet outil.",
+    "version": "1.5",
+    "author": "Olivier P.",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "olivier.poujade@fredon-corse.com",
+            "strict_min_version": "128.0"
+        }
+    },
+    "message_display_action": {
+        "default_popup": "messagePopup/popup.html",
+        "default_title": "Details",
+        "default_icon": "images/bouclier-32px.png"
+    },
+    "permissions": [
+        "messagesRead"
+    ],
+    "icons": {
+        "64": "images/bouclier-64px.png",
+        "32": "images/bouclier-32px.png",
+        "16": "images/bouclier-16px.png"
+    }
+}

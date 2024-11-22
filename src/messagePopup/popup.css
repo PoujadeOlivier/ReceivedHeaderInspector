@@ -1,0 +1,24 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+	height: 400px; /* Hauteur explicite */
+	overflow-y: scroll; /* Barre de défilement toujours visible */
+    
+	font-size: 13px;
+}
+
+.header {
+    font-weight: bold;
+}
+
+.grid-container div {
+    margin: 1ex;
+}
+
+.text-blue {
+    color: blue; /* Applique la couleur bleue au texte */
+}
+
+.text-green {
+    color: #2e734c;
+}
